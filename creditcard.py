@@ -23,6 +23,8 @@ credit_card_data['Class'].value_counts()
 
 This Dataset is highly unblanced
 
+
+
 0 --> Normal Transaction
 
 1 --> fraudulent transaction
@@ -41,6 +43,9 @@ fraud.Amount.describe()
 
 # compare the values for both transactions
 credit_card_data.groupby('Class').mean()
+
+
+
 
 Under-Sampling
 
@@ -70,11 +75,18 @@ print(X)
 
 print(Y)
 
+
+
 Split the data into Training data & Testing Data
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
 
 print(X.shape, X_train.shape, X_test.shape)
+
+
+
+
+
 
 Model Training
 
@@ -84,6 +96,9 @@ model = LogisticRegression()
 
 # training the Logistic Regression Model with Training Data
 model.fit(X_train, Y_train)
+
+
+
 
 Model Evaluation
 

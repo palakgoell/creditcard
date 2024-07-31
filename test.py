@@ -77,27 +77,3 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratif
 
 print(X.shape, X_train.shape, X_test.shape)
 
-Model Training
-
-Logistic Regression
-
-model = LogisticRegression()
-
-# training the Logistic Regression Model with Training Data
-model.fit(X_train, Y_train)
-
-Model Evaluation
-
-Accuracy Score
-
-# accuracy on training data
-X_train_prediction = model.predict(X_train)
-training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
-
-print('Accuracy on Training data : ', training_data_accuracy)
-
-# accuracy on test data
-X_test_prediction = model.predict(X_test)
-test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
-
-print('Accuracy score on Test Data : ', test_data_accuracy)

@@ -77,3 +77,10 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratif
 
 print(X.shape, X_train.shape, X_test.shape)
 
+#web app
+st.title("Credit Card Fruad Detection Model")
+input_df = st.text_input('Enter All Required Features Values')
+input_df_splited = input_df.split(',')
+
+submit = st.button("submit")
+

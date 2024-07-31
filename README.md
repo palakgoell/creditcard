@@ -19,7 +19,7 @@ After cleaning the data and extracting the required columns in the dataset I’m
 
 **About the dataset:**
 
-I have chosen this dataset from Kaggle. This dataset consisted around 2lakh records from which I have taken 15000 records for my convenience. The dataset has 31 columns where the time, amount and class are the important columns and all others are different attributes contributing to these columns which are taken from V2 to V29.
+I have chosen this dataset from Kaggle. This dataset consisted around 2lakh records from which I have taken 65536 records for my convenience. The dataset has 31 columns where the time, amount and class are the important columns and all others are different attributes contributing to these columns which are taken from V1 to V28.
 
 
 **Research analysis:**
